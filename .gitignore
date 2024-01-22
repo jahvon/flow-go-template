@@ -22,6 +22,6 @@ coverage.txt
 .idea
 .vscode
 
-# Flow Files
-workspace.yaml
-workspace.yml
+# flow client data files
+clients/data/*.yaml
+clients/data/*.json

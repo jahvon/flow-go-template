@@ -1,0 +1,20 @@
+displayName: starter go workspace
+tags:
+    - fromTemplate
+description: |
+    A starter repo for Go-based flow workspaces.
+    Update it to fit your needs.
+
+    Version: 0.0.1
+    Source: github.com/jahvon/flow-go-template
+
+    ---
+
+    ### Featured executables
+
+    - `open editor`: open the workspace in the configured editor
+    - `show info`: show information about the workspace
+    - `cleanup clients:data`: remove all data created by executable clients
+    - **your new executables!**
+git:
+    enabled: false

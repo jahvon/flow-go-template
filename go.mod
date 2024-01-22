@@ -1,3 +1,3 @@
-module flow-go-util-template
+module flow-go-template
 
-go 1.21
+go 1.21.1

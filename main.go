@@ -6,10 +6,7 @@ import (
 )
 
 func main() {
-	name, found := os.LookupEnv("UTIL_NAME")
-	if !found {
-		name = "unknown"
-	}
+	ws := os.Getenv("FLOW_WORKSPACE_PATH")
 
-	fmt.Printf("Executing %s utility\n", name)
+	fmt.Printf("Hello from %s\n", ws)
 }
